@@ -8,7 +8,7 @@ import Button from "../ui/button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useCartStore } from "@/app/hooks/use-cart-store";
-import { transactionCheckout } from "@/app/services/transaction.service";
+import { transactionCheckout } from "@/app/services/transaction.services";
 
 
 const PaymentSteps = () => {

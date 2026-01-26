@@ -1,10 +1,10 @@
 import Image from "next/image";
 import ProductActions from "../../components/product-detail/product-actions";
-import { getProductDetail } from "@/app/services/product.service";
+import { getProductDetail } from "@/app/services/product.services";
 import { getImageUrl } from "@/app/lib/api";
 import priceFormatter from "@/app/utils/price-formatter";
 
-type TPageProps = {
+export type TPageProps = {
     params: Promise<{id: string}>;
 }
 
